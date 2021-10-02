@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+        RMIT University Vietnam
+        Course: INTE2512 Object-Oriented Programming
+        Semester: 2021B
+        Assessment: Final Project
+        Created  date: 07/08/2021
+        Author: Ho Le Minh Thach
+        Last modified date: 10/09/2021
+        Acknowledgement: Mr. Quang lecture to understand Javafx
+-->
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox fx:id="categoryBox" alignment="TOP_CENTER" minHeight="80.0" minWidth="-Infinity" styleClass="column_row_background" stylesheets="@../style/style.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.CategoryController">
+   <children>
+      <Button fx:id="newButton" contentDisplay="CENTER" focusTraversable="false" mnemonicParsing="false" onAction="#setCurrentCategory" styleClass="category" stylesheets="@../style/style.css" VBox.vgrow="ALWAYS">
+         <graphic>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../icons/resized/new2.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="covidButton" contentDisplay="CENTER" focusTraversable="false" mnemonicParsing="false" onAction="#setCurrentCategory" styleClass="category" stylesheets="@../style/style.css" VBox.vgrow="ALWAYS">
+         <graphic>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../icons/resized/covid2.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="politicsButton" contentDisplay="CENTER" focusTraversable="false" mnemonicParsing="false" onAction="#setCurrentCategory" styleClass="category" stylesheets="@../style/style.css" VBox.vgrow="ALWAYS">
+         <graphic>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../icons/resized/political2.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="businessButton" contentDisplay="CENTER" focusTraversable="false" mnemonicParsing="false" onAction="#setCurrentCategory" styleClass="category" stylesheets="@../style/style.css" VBox.vgrow="ALWAYS">
+         <graphic>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../icons/resized/business2.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="technologyButton" contentDisplay="CENTER" focusTraversable="false" mnemonicParsing="false" onAction="#setCurrentCategory" styleClass="category" stylesheets="@../style/style.css" VBox.vgrow="ALWAYS">
+         <graphic>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../icons/resized/technology2.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="healthButton" contentDisplay="CENTER" focusTraversable="false" mnemonicParsing="false" onAction="#setCurrentCategory" styleClass="category" stylesheets="@../style/style.css" VBox.vgrow="ALWAYS">
+         <graphic>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../icons/resized/health2.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="sportsButton" contentDisplay="CENTER" focusTraversable="false" mnemonicParsing="false" onAction="#setCurrentCategory" styleClass="category" stylesheets="@../style/style.css" VBox.vgrow="ALWAYS">
+         <graphic>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../icons/resized/sport2.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="entertainmentButton" contentDisplay="CENTER" focusTraversable="false" mnemonicParsing="false" onAction="#setCurrentCategory" styleClass="category" stylesheets="@../style/style.css" VBox.vgrow="ALWAYS">
+         <graphic>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../icons/resized/entertainment2.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="worldButton" contentDisplay="CENTER" focusTraversable="false" mnemonicParsing="false" onAction="#setCurrentCategory" styleClass="category" stylesheets="@../style/style.css" VBox.vgrow="ALWAYS">
+         <graphic>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../icons/resized/world2.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="othersButton" contentDisplay="CENTER" focusTraversable="false" mnemonicParsing="false" onAction="#setCurrentCategory" styleClass="category" stylesheets="@../style/style.css" VBox.vgrow="ALWAYS">
+         <graphic>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../icons/resized/other2.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+   </children>
+   <padding>
+      <Insets bottom="10.0" top="10.0" />
+   </padding>
+</VBox>

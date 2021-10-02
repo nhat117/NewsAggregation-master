@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+        RMIT University Vietnam
+        Course: INTE2512 Object-Oriented Programming
+        Semester: 2021B
+        Assessment: Final Project
+        Created  date: 07/08/2021
+        Author: Ho Le Minh Thach
+        Last modified date: 10/09/2021
+        Acknowledgement: Mr. Quang lecture to understand Javafx
+-->
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox fx:id="sidebar" alignment="CENTER_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" minWidth="-Infinity" prefWidth="200.0" style="-fx-background-color: transparent;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.SidebarController">
+   <children>
+      <Button fx:id="newBar" alignment="BASELINE_LEFT" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="58.0" styleClass="selected" stylesheets="@../style/style.css" text="Newest" textFill="BLACK">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="covidBar" alignment="BASELINE_LEFT" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="58.0" styleClass="selected" stylesheets="@../style/style.css" text="COVID" textFill="BLACK">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="politicsBar" alignment="BASELINE_LEFT" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="58.0" styleClass="selected" stylesheets="@../style/style.css" text="Politics" textFill="BLACK">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="businessBar" alignment="BASELINE_LEFT" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="58.0" styleClass="selected" stylesheets="@../style/style.css" text="Business" textFill="BLACK">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="technologyBar" alignment="BASELINE_LEFT" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="58.0" styleClass="selected" stylesheets="@../style/style.css" text="Technology" textFill="BLACK">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="healthBar" alignment="BASELINE_LEFT" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="58.0" styleClass="selected" stylesheets="@../style/style.css" text="Health" textFill="BLACK">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="sportsBar" alignment="BASELINE_LEFT" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="58.0" styleClass="selected" stylesheets="@../style/style.css" text="Sport" textFill="BLACK">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="entertainmentBar" alignment="BASELINE_LEFT" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="58.0" styleClass="selected" stylesheets="@../style/style.css" text="Entertainment" textFill="BLACK">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="worldBar" alignment="BASELINE_LEFT" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="58.0" styleClass="selected" stylesheets="@../style/style.css" text="World" textFill="BLACK">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="othersBar" alignment="BASELINE_LEFT" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="58.0" styleClass="selected" stylesheets="@../style/style.css" text="Other" textFill="BLACK">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Button>
+   </children>
+   <padding>
+      <Insets top="10.0" />
+   </padding>
+</VBox>

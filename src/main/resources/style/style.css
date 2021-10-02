@@ -1,0 +1,91 @@
+/*
+        RMIT University Vietnam
+        Course: INTE2512 Object-Oriented Programming
+        Semester: 2021B
+        Assessment: Final Project
+        Created  date: 07/08/2021
+        Author: Ho Le Minh Thach s3877980
+        Last modified date: 10/09/2021
+        Contributor: Bui Minh Nhat s3878174, Truong Nhat Anh s3878231
+        Acknowledgement:
+        Thank you, Professor Nick Wergeles for explaining the concept of:
+            - CSS Styling
+        https://youtube.com/playlist?list=PLpvL1C_oZsr-BMBvdtgipMCDZK14BNigd
+*/
+
+.light_background {
+    -fx-background-color: #F4F5F9;
+}
+
+.column_row_background {
+    -fx-background-color: #FFFFFF;
+}
+
+.bar {
+    -fx-background-color: linear-gradient(rgba(255, 255, 255, 0.9), white);
+}
+.shadow {
+    -fx-effect: dropShadow(three-pass-box, rgba(0, 0, 0, 0.2), 10, 0, 0, 10);
+}
+.scroll-bar {
+    -fx-background-color: transparent;
+    -fx-focus-color: transparent;
+}
+
+.scroll-bar:vertical {
+    -fx-background-color: #F4F5F9;
+}
+
+.increment-button, .decrement-button {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+.scroll-bar:vertical .track {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-background-radius: 0em;
+}
+
+.scroll-bar:vertical .thumb {
+    -fx-background-color: #BFBFBF;
+    -fx-background-radius: 0em;
+}
+
+.scroll-bar:vertical:focused {
+    -fx-background-color: transparent;
+}
+
+.progress-bar .track {
+    -fx-background-radius: 0;
+    -fx-background-color: #F4F5F9;
+    -fx-border-color: transparent;
+    -fx-padding: 0;
+}
+
+.progress-bar .bar {
+    -fx-background-color: black;
+    -fx-border-color: transparent;
+}
+
+.button {
+    -fx-background-color: #FFFFFF;
+    -fx-background-radius: 0em;
+}
+.category {
+    -fx-border-style: none none none solid;
+    -fx-border-color: transparent transparent transparent transparent;
+    -fx-border-width: 0 5 0 5;
+}
+
+.button:hover {
+    -fx-background-color: #EFEFEF;
+}
+
+.button:pressed {
+    -fx-background-color: #BFBFBF;
+}
+
+.selected {
+    -fx-background-color: #EFEFEF;
+}
